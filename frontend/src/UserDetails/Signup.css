@@ -1,0 +1,59 @@
+/* Signup.css */
+
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #333;/* Bootstrap gray border color */
+  border-radius: 5px;
+/*  background-color: #f8f9fa;  Bootstrap background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  color: #000000; /* Bootstrap primary color */
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+label {
+  font-weight: bold;
+  color: #343a40; /* Bootstrap secondary dark color */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #333; /* Bootstrap gray border color */
+  border-radius: 3px;
+  margin-top: 5px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff; /* Bootstrap primary color on focus */
+}
+
+button {
+  background-color: #000000; /* Bootstrap primary color */
+  color: #fff; /* Bootstrap white color */
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(0, 0, 0); /* Bootstrap darker primary color on hover */
+}

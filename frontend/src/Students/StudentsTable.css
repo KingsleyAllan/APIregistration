@@ -1,0 +1,88 @@
+/* StudentsTable.css */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.students-table {
+  margin-top: 20px;
+}
+
+.filter-button {
+  margin-right: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.input {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.button {
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  margin: 10px 0;
+}
+
+/* StudentsTable.css */
+
+/* ... (existing styles remain the same) */
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #e6e6e6;
+}
+.filter-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+

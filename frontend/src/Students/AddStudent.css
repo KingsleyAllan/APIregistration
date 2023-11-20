@@ -1,0 +1,61 @@
+/* AddStudent.css */
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  color: #333;
+}
+
+.form {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.input {
+  /* padding: 8px; */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.button {
+  background-color: #029b16;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #027a12;
+}
+
+.select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #121212;
+  margin-bottom: 15px;
+  width: 100%;
+  appearance: none;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 16px;
+}
+
+.select:hover {
+  border-color: #555555;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #029b16;
+  box-shadow: 0 0 0 3px rgba(2, 155, 22, 0.2);
+}
